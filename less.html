@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Less - Like chess but less</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="peerjs.min.js" charset="utf-8"></script>
+    <script src="ui.js" charset="utf-8"></script>
+    <script src="network.js" charset="utf-8"></script>
+    <script src="game.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div id="network">
+      <input type="text" id="opponentId" placeholder="Opponent ID">
+      <input type="submit" id="connectBtn" value="Connect">
+      <h1 id="myId"></h1>
+    </div>
+
+    <div id="game">
+      <div id="container"></div>
+
+      <div id="info">
+        <h1 id="turn"></h1>
+      </div>
+    </div>
+
+  </body>
+</html>
